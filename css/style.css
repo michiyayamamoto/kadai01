@@ -1,0 +1,508 @@
+@charset "utf-8";
+html{
+    font-size: 62.5%;
+}
+h3{
+    font-size: 1.8rem;
+    /* font-weight: bold; */
+}
+p{
+font-size: 1.6rem;
+    line-height: 1.4;}
+body{
+    color: #222222;
+    font-size:1.6rem;
+    width:1200px;
+    margin:0 auto;
+}
+
+nav img{
+    float: left;
+    margin-top: 20px;
+    margin-left: 37px
+}
+nav ul{
+    float: right;
+    display: flex;
+}
+
+nav ul li{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.navi{
+    font-size: 2.1rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+h2{
+    font-size: 2.4rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* main_visual */
+
+.main_visual{
+    position: relative;
+}
+/* 
+.inner_text {
+    position: relative;
+}
+
+.inner_text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+} */
+
+
+.inner_text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: #fafafa;
+    font-size: 20px;
+} 
+
+.inner_text p{
+    font-size: 40px;
+    color: #fafafa;
+}
+
+.main_visual .inner_text_bold{
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #fafafa;
+}
+/* about */
+.profile-wrapper{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.profile__title{
+    margin: 60px 0 30px;
+    font-weight: bold;
+    color: #ffd61a;
+}
+
+.ja_about{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 0 30px;
+}
+.first_about{
+    margin: 60px 0 30px;
+}
+.second_about{
+    margin: 0 0 40px;
+}
+.third_about{
+    margin: 0 0 40px;
+}
+
+.forth_about{
+    margin: 0 0 80px;
+}
+
+.box{
+    justify-content: center;
+    display:flex;
+}
+
+.box img{
+    width:25%;
+}
+
+/* ここからcourseが始まる */
+.course__title{
+    margin: 60px 0 30px;
+    font-weight: bold;
+}
+
+#course p{
+    /* text-align: center; */
+    margin: 0 0 30px;
+}
+
+.course_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course_img{
+    width: 50%;
+}
+
+.course-title{
+text-align: center;
+}
+
+
+/* 以下はボックスの右側 */
+.course_flex .text {
+    width: 50%;
+    display: inline-block;
+    background-color: #fafafa;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.course_flex .a{
+    /* margin-left:50px; */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.course_flex .text p{
+margin-top: 40px;
+margin-left:50px;
+}
+
+/* 以下はボックスの左側 */
+
+
+.course_flex .text-b {
+    width: 50%;
+    display: inline-block;
+    background-color: #fafafa;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    text-align: right;
+    padding-left: 50px;
+}
+
+ .course_flex .b { 
+     margin-right: 49px; 
+     font-weight: bold;
+    margin-bottom: 20px;
+} 
+
+#course p {
+     /* text-align: center;  */
+     margin: 0 0 30px;
+ } 
+
+.course_flex .text-b p{
+margin-top: 40px;
+margin-right:50px;
+}
+
+/* news */
+
+.news__title{
+    margin: 60px 0 30px;
+    font-weight: bold;
+    color: #ffd61a;
+}
+
+.ja_news{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 0 60px;
+}
+
+/* newsのボックス */
+
+.flex_news_box{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+}
+
+.flex_news_box li{
+    width: 300px;
+}
+
+.flex_news_box .news-date{
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+/* もっと見る */
+
+#news .btn{
+    display: block;
+    width: 300px;
+    /* height: 60px; */
+    margin:auto;
+    padding:21px 0 21px 0;
+    background-color: #ffd61a;
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+}
+/* access */
+#access{
+    background-color: #fafafa;
+}
+
+
+.access__title{
+    margin: 60px 0 30px;
+    font-weight: bold;
+}
+
+.ja_access{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 0 60px;
+}
+
+/* 会社情報 */
+  #access .addr {
+    padding-top: 60px;
+  }
+  
+  .addr {
+    margin-bottom: 30px;
+    font-size: 14px;
+    display: flex;
+    width:57%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  
+  .addr .inner{
+    display: flex;
+    padding-left: 200px;
+    margin-bottom: 30px;
+  }
+  
+  .addr .inner:last-child {
+    margin-bottom: 60px;
+  }
+  
+  .addr .school {
+    margin-right: 100px;
+  }
+  .addr .office {
+    margin-right: 60px;
+  }
+  
+  .addr .telephone,
+  .fax {
+    margin-right: 120px;
+  }
+  
+  .addr .e_mail {
+    margin-right: 110px;
+  }
+
+
+/* contact */
+.contact__title{
+    margin: 60px 0 30px;
+    width:90%;
+    font-weight: bold;
+}
+
+.ja_contact{
+    font-size: 1.8rem;
+    text-align: center;
+    width:90%;
+    margin: 0 0 60px;
+}
+
+#contact .first_contact{
+    margin-bottom: 30px;
+    width:90%;
+}
+
+#contact .second_contact{
+   margin-bottom: 70px; 
+   width:90%;
+}
+
+/* フォーム */
+/* .form-wrapper{
+    max-width: 560px;
+    margin:auto
+    float
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-title{
+    width:172px
+}
+
+.form-item{
+    width:388px
+} */
+
+
+/* フォーム */
+
+#contact {
+    width: 1365px;
+    margin: 0 auto;
+  }
+  
+  #contact .c_cont {
+    margin: 60px 0 70px 0;
+    text-align: center;
+  }
+  
+  .c_cont h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .c_cont h4 {
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+  
+  .c_cont p {
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 30px;
+  }
+  
+  .c_cont p:last-child{
+    margin-bottom: 0;
+  }
+  
+  .form_wrap {
+    width: 640px;
+    margin: 0 auto;
+  }
+  
+  form tr {
+    height: 36px;
+    border-top: 1px solid #bfbfbf;
+    
+  }
+  
+  .form_check li {
+    margin-bottom: 24px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .form_check li:first-child {
+    margin-top: 15px;
+  }
+  
+  form th {
+    width: 240px;
+    font-size: 14px;
+    border-top: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    text-align: left;
+    padding-left: 16px;
+  }
+  
+  .form_parts {
+    height: 36px;
+    width: 328px;
+    margin: 8px 8px 8px 10px;
+  }
+  
+  .cont label {
+    width: 240px;
+  }
+  
+  .form_check {
+    height: 220px;
+    
+  }
+  
+  form textarea {
+    margin: 8px 8px 8px 10px;
+    width: 328px;
+    height: 100px;
+  }
+  
+  
+  .conten {
+    vertical-align: top;
+    padding-top: 15px;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+  
+  .btn input {
+    width: 300px;
+    height: 60px;
+    border-radius: 7px;
+    margin: 30px 0 140px;
+    color: #fff;
+    background: #ffd61a;
+    font-size: 18px;
+  }
+  
+  .btn input:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .ta {
+    border-bottom: 1px solid #bfbfbf;
+  
+  }
+
+/* footer */
+.footer{
+    padding:30px 0;
+    background-color: #707070;
+}
+
+.copyrights{
+    color:#fff;
+}
+
+
+
+
+
+/* 
+#course .fll p{
+    margin-top: 40px;
+    width: 480px;
+} */
+
+ 
+/*.fll img{
+    float: left;
+} */
+
+/*.flr img{
+    float:right
+}/* 
+
